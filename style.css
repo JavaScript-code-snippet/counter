@@ -1,0 +1,56 @@
+@import "./reset.css";
+
+body {
+  background-color: #f1dec9;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main .container {
+  text-align: center;
+}
+
+main h1 {
+  font-size: 80px;
+}
+main #value {
+  font-size: 64px;
+  display: block;
+  margin-top: 48px;
+}
+
+main .button-container {
+  margin-top: 48px;
+}
+
+main .button-container .btn {
+  border: none;
+  padding: 24px 48px 24px 48px;
+  font-size: 24px;
+
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  margin-left: 16px;
+  animation: rotate;
+  border: 1px solid #a4907c;
+}
+
+main .button-container .btn:hover {
+  background-color: #a4907c;
+  transform: translateY(-10px);
+  color: #fff;
+  border: none;
+}
+
+main .button-container .btn:active {
+  background-color: #8d7b68;
+}
+
+.delete {
+  display: none;
+}
